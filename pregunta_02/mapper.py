@@ -17,4 +17,4 @@ if __name__ == "__main__":
 
         amount = line.split(",")[4]
         purpose = line.split(",")[3]
-        sys.stdout.write("{}\t{}\n".format(amount,purpose))
+        sys.stdout.write("{}\t{}\n".format(purpose,amount))
