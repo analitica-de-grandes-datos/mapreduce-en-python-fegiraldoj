@@ -17,11 +17,13 @@ if __name__ == '__main__':
 
         key, val1, val2 = line.split("\t")
 
+        key = key.strip()
+
         if val1 == '000':
             val1 = '0'
         else:    
             val1 = val1.lstrip('0')
-            
+        val1 = val1.strip()
         val2 = val2.strip()
 
-        sys.stdout.write("{}\t{}\t{}\n".format(key, val2, val1))
+        sys.stdout.write("{}   {}   {}\n".format(key, val2, val1))
