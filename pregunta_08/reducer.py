@@ -46,4 +46,4 @@ if __name__ == '__main__':
             total = val
             cant = 1
 
-    sys.stdout.write("{}\{}\{}\n".format(curkey, total, total/cant))
+    sys.stdout.write("{}\t{}\t{}\n".format(curkey, total, total/cant))
