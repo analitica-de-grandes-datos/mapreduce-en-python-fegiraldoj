@@ -40,10 +40,10 @@ if __name__ == '__main__':
                 # con la misma clave se imprime el resultado en
                 # el flujo de salida
                 #
-                sys.stdout.write("{}   {}   {}\n".format(curkey, total, total/cant))
+                sys.stdout.write("{}\t{}\t{}\n".format(curkey, total, total/cant))
 
             curkey = key
             total = val
             cant = 1
 
-    sys.stdout.write("{}   {}   {}\n".format(curkey, total, total/cant))
+    sys.stdout.write("{}\{}\{}\n".format(curkey, total, total/cant))
