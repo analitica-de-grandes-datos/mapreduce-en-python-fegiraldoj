@@ -28,6 +28,6 @@ if __name__ == '__main__':
         else:    
             val1 = val1.lstrip('0')
 
-        sys.stdout.write("{}\t{}\t{}\n".format(key, val2, val1))
+        sys.stdout.write("{}   {}   {}\n".format(key, val2, val1))
         cant += 1
         if cant == top_n: break
